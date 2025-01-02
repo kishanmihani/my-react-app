@@ -5,7 +5,7 @@ import './App.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
 // import Curdino from './Component/crudino'
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
-import Articals from './Component/alkysdesign/Articals'
+// import Articals from './Component/alkysdesign/Articals'
 import NewArt from './Component/alkysdesign/NewArt'
 function App() {
   const [count, setCount] = useState(0)

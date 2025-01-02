@@ -3,7 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import '../node_modules/bootstrap/dist/css/bootstrap.css'
-import Curdino from './Component/crudino'
+// import Curdino from './Component/crudino'
 import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import Articals from './Component/alkysdesign/Articals'
 import NewArt from './Component/alkysdesign/NewArt'

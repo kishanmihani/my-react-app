@@ -2,7 +2,7 @@
   /* max-width: 1280px; */
   width: 100%;
   /* margin: 0 auto; */
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 body{
@@ -42,4 +42,16 @@ body{
 
 .read-the-docs {
   color: #888;
+}
+.height-contian{
+ height:75vh
+}
+@media (max-width:585px) {
+  .height-contian{
+    width:100%;
+    display: block !important;
+  }
+  .llbnew{
+    display: block !important;
+  }
 }

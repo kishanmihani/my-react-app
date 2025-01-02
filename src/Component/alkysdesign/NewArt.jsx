@@ -18,7 +18,7 @@ function NewArt(){
       function handleClick(id){
         console.log(id);
         Data.filter((data)=>{
-            if(data.id == id ){ setsingledata({image_url:data.image_url,id:data.id,title: data.title, created_at: data.created_at, prompt: data.prompt, short_description: data.short_description});console.log(data); setModel(true)};
+            if(data.id == id ){ setsingledata({image_url:data.image_url,id:data.id,title: data.title, created_at: data.created_at, prompt: data.prompt, short_description: data.short_description,content:data.content});console.log(data); setModel(true)};
         })
         console.log(singledata)
 
@@ -60,8 +60,8 @@ function NewArt(){
                <img src={singledata.image_url} alt={singledata.id} className="w-100 h-100"></img>
                <div className=" m-3 mt-2 card border-0">
                 <div className="card-body"> <p className=" btn btn-dark fs-5 rounded-5 p-3 pb-2 pt-2 overflow-auto">{singledata.prompt}</p>
-               <p className="fw-bolder fs-5 ">{singledata.title}</p>
-                        <p className=" fs-5">{singledata.short_description}</p>
+               <p className="fw-bolder fs-5 ">{singledata.short_description}</p>
+                        <p className=" fs-5">{singledata.content}</p>
                         </div>
                         </div>
                </div>
